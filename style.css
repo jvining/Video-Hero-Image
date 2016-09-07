@@ -5,10 +5,18 @@ Description: Video Hero Image Template built on Starter Bootstrap Template (http
 Version: 1.0
 Author: Joshua Vining
 Author URI: https://github.com/jvining
+Reff URls:
+ Srouce Free Stock Videography
+ - http://www.videezy.com/
+ - http://designers.hubspot.com/blog/stock-video-loop-backgrounds
+ - http://www.coverr.co/
+ Convert .mov source to web friendly mp4's
+ - http://video.online-convert.com/convert-to-mp4
 */
 
 body{background:#fbfbfb; padding-top:5em; font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";}
 body > .container{margin-top:20px;}
+.btn-xl{padding: .5em .85em!important;font-size:1.5em!important;}
 
 h1,h2,h3,h4,h5{font-weight:300;}
 
@@ -22,9 +30,13 @@ h1,h2,h3,h4,h5{font-weight:300;}
 footer{margin: 50px 0;}
 
 /* Video Hero Image Styling */
-.container-video{height:70vh; margin:-20px -15px 0; padding:0px!important; overflow:hidden;}
+.container-video{height: 80vh; margin:-20px -15px 0; padding:0px!important; overflow:hidden;}
 .container-video video{width:100%; }
 .container-video .container{position:absolute; top:20%; right:0; left:0; z-index:99!important;}
-@media(max-width:768px){.container-video .container{position:absolute; top:5%; right:0; left:0; z-index:99!important;} .container-video video{width:175%;} .container-video .container h1{font-size:1.5em;} .container-video .container h2{font-size:1.25em;}}
-.container-video .container h1 {color:#fff; text-shadow: .025em .025em #333 ;}
-.container-video .container h2{color:#fff; text-shadow: .025em .025em #333 ;}
+.container-video .container h1 {font-size:4em; color:#fff; text-shadow: .025em .025em #333 ;}
+.container-video .container h2{ font-size:2em; color:#fff; text-shadow: .025em .025em #333 ;}
+.container-video .container h5{ font-size:1.25em; color:#fff; text-shadow: .035em .035em #333 ;}
+.container-video .container i{ font-size:4em; color:#fff; text-shadow: .02em .025em #666;}
+.container#content{padding-top:20px;}
+@media(min-width:769px) and (max-width:1000px){.container-video .container{top:2%;}}
+@media(max-width:768px){.container-video .container{position:absolute; top:2%; right:0; left:0; z-index:99!important;} .container-video video{width:175%;} .container-video .container h1{font-size:1.75em;} .container-video .container h2{font-size:1.05em;} .container-video .container h5 {font-size:.8em!important;} .btn-xl{padding: .25em!important;font-size:1.25em!important;}}
